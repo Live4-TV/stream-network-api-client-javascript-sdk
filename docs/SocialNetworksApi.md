@@ -17,7 +17,7 @@ Get all social network integrations available
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.SocialNetworksApi();
 let xApiKey = "xApiKey_example"; // String | 

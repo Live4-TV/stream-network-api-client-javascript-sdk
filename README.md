@@ -1,6 +1,6 @@
-# @live4tv/stream_networks_api_javascript
+# live4tv_stream_networks_api_javascript
 
-Live4tvStreamNetworksApiJavascript - JavaScript client for @live4tv/stream_networks_api_javascript
+Live4tvStreamNetworksApiJavascript - JavaScript client for live4tv_stream_networks_api_javascript
 Omnichannel for live streaming on social networks 
 We're glad that you chose to use Live4.tv's API for managing your connection with social networks (currently Instagram).    
       
@@ -31,7 +31,7 @@ To publish the library as a [npm](https://www.npmjs.com/), please follow the pro
 Then install it via:
 
 ```shell
-npm install @live4tv/stream_networks_api_javascript --save
+npm install live4tv_stream_networks_api_javascript --save
 ```
 
 Finally, you need to build the module:
@@ -54,7 +54,7 @@ Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the follow
 npm link
 ```
 
-To use the link you just defined in your project, switch to the directory you want to use your @live4tv/stream_networks_api_javascript from, and run:
+To use the link you just defined in your project, switch to the directory you want to use your live4tv_stream_networks_api_javascript from, and run:
 
 ```shell
 npm link /path/to/<JAVASCRIPT_CLIENT_DIR>
@@ -110,7 +110,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var Live4tvStreamNetworksApiJavascript = require('@live4tv/stream_networks_api_javascript');
+var Live4tvStreamNetworksApiJavascript = require('live4tv_stream_networks_api_javascript');
 
 
 var api = new Live4tvStreamNetworksApiJavascript.AccountsApi()

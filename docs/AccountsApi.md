@@ -18,7 +18,7 @@ Get social account information logged from user account
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.AccountsApi();
 let xApiKey = "xApiKey_example"; // String | 
@@ -65,7 +65,7 @@ Add a new social network account (e.g instagram account)
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.AccountsApi();
 let xApiKey = "xApiKey_example"; // String | 

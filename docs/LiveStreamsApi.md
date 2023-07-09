@@ -18,7 +18,7 @@ Start a live stream, return the stream key
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.LiveStreamsApi();
 let xApiKey = "xApiKey_example"; // String | 
@@ -65,7 +65,7 @@ Stop a live stream
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.LiveStreamsApi();
 let xApiKey = "xApiKey_example"; // String | 

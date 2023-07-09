@@ -22,7 +22,7 @@ Get a list of comments (call it every minute)
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
@@ -69,7 +69,7 @@ Mute comments to the live stream
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
@@ -116,7 +116,7 @@ Post a comment into the live stream (all accounts)
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
@@ -163,7 +163,7 @@ Start listening comments of the live stream
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
@@ -210,7 +210,7 @@ Stop listening comments of the live stream
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
@@ -257,7 +257,7 @@ Unmute comments to the live stream
 ### Example
 
 ```javascript
-import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
+import Live4tvStreamNetworksApiJavascript from 'live4tv_stream_networks_api_javascript';
 
 let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
