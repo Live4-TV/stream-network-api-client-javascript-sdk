@@ -1,6 +1,6 @@
 {
   "name": "live4_tv_stream_targets",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Omnichannel for live streaming on social networks  We're glad that you chose to use Live4.tv's API for managing your connection with social networks.   Here in this documentation, you will find a step-by-step for integrating our API.  Feel free to contact us in case you need any help.  The login flow:  ![login flow image](https://api-stream-network.live4.tv/mermaid-diagram-login-flow.png \"Login flow image\") ",
   "license": "Unlicense",
   "main": "dist/StreamNetworkApi/index.js",
