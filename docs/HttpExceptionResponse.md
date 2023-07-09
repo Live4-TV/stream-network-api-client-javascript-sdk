@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.HttpExceptionResponse
+# Live4tvStreamNetworksApiJavascript.HttpExceptionResponse
 
 ## Properties
 

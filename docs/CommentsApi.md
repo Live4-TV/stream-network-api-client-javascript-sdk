@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.CommentsApi
+# Live4tvStreamNetworksApiJavascript.CommentsApi
 
 All URIs are relative to *http://localhost*
 
@@ -22,9 +22,9 @@ Get a list of comments (call it every minute)
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.CommentsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let uuid = "uuid_example"; // String | The uuid of the live stream
 let lastCommentTimestamp = 1619515200000; // Number | The timestamp of the last comment received. If requesting for the first time, you can send 0
@@ -69,12 +69,12 @@ Mute comments to the live stream
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.CommentsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let uuid = "uuid_example"; // String | The uuid of the live stream
-let toggleCommentRequest = new Live4TvStreamTargets.ToggleCommentRequest(); // ToggleCommentRequest | 
+let toggleCommentRequest = new Live4tvStreamNetworksApiJavascript.ToggleCommentRequest(); // ToggleCommentRequest | 
 apiInstance.commentsControllerMuteComment(xApiKey, uuid, toggleCommentRequest, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -116,12 +116,12 @@ Post a comment into the live stream (all accounts)
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.CommentsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let uuid = "uuid_example"; // String | The uuid of the live stream
-let postCommentRequest = new Live4TvStreamTargets.PostCommentRequest(); // PostCommentRequest | 
+let postCommentRequest = new Live4tvStreamNetworksApiJavascript.PostCommentRequest(); // PostCommentRequest | 
 apiInstance.commentsControllerPostComment(xApiKey, uuid, postCommentRequest, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -163,12 +163,12 @@ Start listening comments of the live stream
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.CommentsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let uuid = "uuid_example"; // String | The uuid of the live stream
-let startListeningToCommentsRequest = new Live4TvStreamTargets.StartListeningToCommentsRequest(); // StartListeningToCommentsRequest | 
+let startListeningToCommentsRequest = new Live4tvStreamNetworksApiJavascript.StartListeningToCommentsRequest(); // StartListeningToCommentsRequest | 
 apiInstance.commentsControllerStartListening(xApiKey, uuid, startListeningToCommentsRequest, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -210,12 +210,12 @@ Stop listening comments of the live stream
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.CommentsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let uuid = "uuid_example"; // String | The uuid of the live stream
-let stopListeningToCommentsRequest = new Live4TvStreamTargets.StopListeningToCommentsRequest(); // StopListeningToCommentsRequest | 
+let stopListeningToCommentsRequest = new Live4tvStreamNetworksApiJavascript.StopListeningToCommentsRequest(); // StopListeningToCommentsRequest | 
 apiInstance.commentsControllerStopListening(xApiKey, uuid, stopListeningToCommentsRequest, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -257,12 +257,12 @@ Unmute comments to the live stream
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.CommentsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.CommentsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let uuid = "uuid_example"; // String | The uuid of the live stream
-let toggleCommentRequest = new Live4TvStreamTargets.ToggleCommentRequest(); // ToggleCommentRequest | 
+let toggleCommentRequest = new Live4tvStreamNetworksApiJavascript.ToggleCommentRequest(); // ToggleCommentRequest | 
 apiInstance.commentsControllerUnmuteComment(xApiKey, uuid, toggleCommentRequest, (error, data, response) => {
   if (error) {
     console.error(error);

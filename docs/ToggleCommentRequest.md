@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.ToggleCommentRequest
+# Live4tvStreamNetworksApiJavascript.ToggleCommentRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.PostCommentResponse
+# Live4tvStreamNetworksApiJavascript.PostCommentResponse
 
 ## Properties
 

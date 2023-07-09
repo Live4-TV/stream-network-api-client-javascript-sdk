@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.StartListeningToCommentsAccountDetailsResponse
+# Live4tvStreamNetworksApiJavascript.StartListeningToCommentsAccountDetailsResponse
 
 ## Properties
 

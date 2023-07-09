@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.Redirect
+# Live4tvStreamNetworksApiJavascript.Redirect
 
 ## Properties
 

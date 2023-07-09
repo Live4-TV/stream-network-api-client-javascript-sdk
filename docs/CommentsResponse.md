@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.CommentsResponse
+# Live4tvStreamNetworksApiJavascript.CommentsResponse
 
 ## Properties
 

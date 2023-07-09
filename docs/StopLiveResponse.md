@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.StopLiveResponse
+# Live4tvStreamNetworksApiJavascript.StopLiveResponse
 
 ## Properties
 

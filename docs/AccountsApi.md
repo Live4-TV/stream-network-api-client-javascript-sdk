@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.AccountsApi
+# Live4tvStreamNetworksApiJavascript.AccountsApi
 
 All URIs are relative to *http://localhost*
 
@@ -18,9 +18,9 @@ Get social account information logged from user account
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.AccountsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.AccountsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let userExternalId = john.doe@gmail.com; // String | The user's unique identifier on your system. The same of you use to authorise-url endpoint.
 let uuid = 21d6ac22-cf0c-42d2-8aa9-95e71ec32c2b; // String | The reference to the new account that you can use to identify the account. The same of you use to authorise-url endpoint
@@ -65,12 +65,12 @@ Add a new social network account (e.g instagram account)
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.AccountsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.AccountsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let network = instagram; // String | The social network code
-let getAuthoriseUrlRequest = new Live4TvStreamTargets.GetAuthoriseUrlRequest(); // GetAuthoriseUrlRequest | 
+let getAuthoriseUrlRequest = new Live4tvStreamNetworksApiJavascript.GetAuthoriseUrlRequest(); // GetAuthoriseUrlRequest | 
 apiInstance.socialNetworkAccountControllerGetAuthoriseUrl(xApiKey, network, getAuthoriseUrlRequest, (error, data, response) => {
   if (error) {
     console.error(error);

@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.SocialNetworksApi
+# Live4tvStreamNetworksApiJavascript.SocialNetworksApi
 
 All URIs are relative to *http://localhost*
 
@@ -17,9 +17,9 @@ Get all social network integrations available
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.SocialNetworksApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.SocialNetworksApi();
 let xApiKey = "xApiKey_example"; // String | 
 apiInstance.socialNetworkControllerGetAllActive(xApiKey, (error, data, response) => {
   if (error) {

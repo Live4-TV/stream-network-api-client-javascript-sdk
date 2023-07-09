@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.LiveStreamsApi
+# Live4tvStreamNetworksApiJavascript.LiveStreamsApi
 
 All URIs are relative to *http://localhost*
 
@@ -18,12 +18,12 @@ Start a live stream, return the stream key
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.LiveStreamsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.LiveStreamsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let uuid = "uuid_example"; // String | The uuid of the live stream
-let createAndStartLiveRequest = new Live4TvStreamTargets.CreateAndStartLiveRequest(); // CreateAndStartLiveRequest | 
+let createAndStartLiveRequest = new Live4tvStreamNetworksApiJavascript.CreateAndStartLiveRequest(); // CreateAndStartLiveRequest | 
 apiInstance.liveStreamsControllerCreateAndStartLive(xApiKey, uuid, createAndStartLiveRequest, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -65,12 +65,12 @@ Stop a live stream
 ### Example
 
 ```javascript
-import Live4TvStreamTargets from 'live4_tv_stream_targets';
+import Live4tvStreamNetworksApiJavascript from '@live4tv/stream_networks_api_javascript';
 
-let apiInstance = new Live4TvStreamTargets.LiveStreamsApi();
+let apiInstance = new Live4tvStreamNetworksApiJavascript.LiveStreamsApi();
 let xApiKey = "xApiKey_example"; // String | 
 let uuid = "uuid_example"; // String | The uuid of the live stream
-let stopLiveRequest = new Live4TvStreamTargets.StopLiveRequest(); // StopLiveRequest | 
+let stopLiveRequest = new Live4tvStreamNetworksApiJavascript.StopLiveRequest(); // StopLiveRequest | 
 apiInstance.liveStreamsControllerStopLive(xApiKey, uuid, stopLiveRequest, (error, data, response) => {
   if (error) {
     console.error(error);

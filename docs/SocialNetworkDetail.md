@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.SocialNetworkDetail
+# Live4tvStreamNetworksApiJavascript.SocialNetworkDetail
 
 ## Properties
 

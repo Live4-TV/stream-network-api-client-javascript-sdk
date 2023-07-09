@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.CreateAndStartLiveRequest
+# Live4tvStreamNetworksApiJavascript.CreateAndStartLiveRequest
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Live4TvStreamTargets.GetAuthoriseUrlRequest
+# Live4tvStreamNetworksApiJavascript.GetAuthoriseUrlRequest
 
 ## Properties
 
